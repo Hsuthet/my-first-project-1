@@ -1,0 +1,11 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "description": "Minimal Node.js Docker app with HTTP server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "mkdir -p dist && cp index.js dist/"
+  },
+  "dependencies": {}
+}
